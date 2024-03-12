@@ -1,5 +1,5 @@
 package org.belajar;
 
 public interface Android {
-    String WA();
+    String WA(); //abstract
 }
