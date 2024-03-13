@@ -9,18 +9,66 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        Main main = new Main();
+        main.case1(10, 0
+        );
 
-        TestStatic objc = new TestStatic();
-        System.out.println(" obj1 staticvar :" +objc.getStaticVar() );
-        objc.setStaticVar(256);
-        System.out.println(" obj1 staticvar :" +objc.getStaticVar() );
+        //String handliding
+//        String a = "study";
+//        String b = "easy";
+//        String c= a+b;
+////        System.out.println(c);
+//
+//        if (b == "Studyesasy"){
+//            System.out.println("studyeasy");
+//        }else {
+//            System.out.println("studyhard");
+//        }
+
+//        for (int i = 0; i  < 10; i++){
+//            System.out.println(i);
+//        }
 
 
-        TestStatic objc1 = new TestStatic();
-        System.out.println(" obj2 staticvar :" +objc1.getStaticVar() );
-        objc1.setStaticVar(26);
-        System.out.println(" obj1 staticvar :" +objc1.getStaticVar() );
+        //packages
+//        Childd childd = new Childd();
+//        childd.JPG();
+//        childd.USA();
 
+//        Child child = new Child();
+//        System.out.println(child.getX());
+//        Child child2 = new Child(102);
+//        System.out.println(child2.getX());
+
+
+
+
+
+
+
+
+        //Static inner
+//      ToyotaCars.Brand.tagLine();
+//        System.out.println(ToyotaCars.Brand.brandName);
+//
+//        ToyotaCars toyotaCars = new ToyotaCars();
+//        ToyotaCars.NonStaticInner.model("city");
+
+
+
+        //TestStatic
+//        TestStatic objc = new TestStatic();
+//        System.out.println(" obj1 staticvar :" +objc.getStaticVar() );
+//        objc.setStaticVar(256);
+//        System.out.println(" obj1 staticvar :" +objc.getStaticVar() );
+//
+//
+//        TestStatic objc1 = new TestStatic();
+//        System.out.println(" obj2 staticvar :" +objc1.getStaticVar() );
+//        objc1.setStaticVar(26);
+//        System.out.println(" obj1 staticvar :" +objc1.getStaticVar() );
+
+        // User input
 //        System.out.println("what's your name");
 //        Scanner scanner = new Scanner(System.in);
 //        String name = scanner.nextLine();
@@ -65,4 +113,25 @@ public class Main {
 //        shop.shopStatus();
 
     }
+
+    public void case1 (int x, int y){
+        if (y != 0) {
+            System.out.println("x/y="+x/y);
+        } else  {
+            System.out.println("the value of y is 0, a possible exception");
+        }
+    }
+
+    public void case2 (int x, int y){
+        try  {
+            System.out.println("x/y="+x/y);
+
+        } catch (Exception e) {
+            System.out.println("the value of y is 0, a possible exception");
+        }
+    }
+
+
+
+
 }
