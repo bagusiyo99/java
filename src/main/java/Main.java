@@ -3,15 +3,43 @@ import org.belajar.SamsungCore;
 import org.belajar.Shop;
 import org.belajar.vehicles.Bike;
 
+import java.util.LinkedList;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Main main = new Main();
-        main.case1(10, 0
-        );
+
+
+        LinkedList<String>names = new LinkedList<>();
+        names.add("bagus");
+        names.add("dwi");
+        names.add("iyo");
+        names.add("aji");
+        names.add("agus");
+        System.out.println(names );
+        names.add(2, "dwi");
+        System.out.println(names);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//        Main main = new Main();
+//        main.case1(10, 0
+//        );
 
         //String handliding
 //        String a = "study";
@@ -114,22 +142,22 @@ public class Main {
 
     }
 
-    public void case1 (int x, int y){
-        if (y != 0) {
-            System.out.println("x/y="+x/y);
-        } else  {
-            System.out.println("the value of y is 0, a possible exception");
-        }
-    }
-
-    public void case2 (int x, int y){
-        try  {
-            System.out.println("x/y="+x/y);
-
-        } catch (Exception e) {
-            System.out.println("the value of y is 0, a possible exception");
-        }
-    }
+//    public void case1 (int x, int y){
+//        if (y != 0) {
+//            System.out.println("x/y="+x/y);
+//        } else  {
+//            System.out.println("the value of y is 0, a possible exception");
+//        }
+//    }
+//
+//    public void case2 (int x, int y){
+//        try  {
+//            System.out.println("x/y="+x/y);
+//
+//        } catch (Exception e) {
+//            System.out.println("the value of y is 0, a possible exception");
+//        }
+//    }
 
 
 
